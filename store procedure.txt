@@ -1,0 +1,2 @@
+CREATE DEFINER=`cpses_phzZQKU9dA`@`localhost` PROCEDURE `insertuser`(IN name VARCHAR(255), IN email VARCHAR(255), IN contactno BIGINT, IN addrss LONGTEXT)
+insert into user(name,email,contactno,addrss) VALUES(name,email,contactno,addrss)
